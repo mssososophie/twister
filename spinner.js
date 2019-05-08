@@ -6,8 +6,6 @@ function spin {
 
 }
 
-var randomValue = twisterPatches[Math.floor(Math.random() * myArray.length)];
-
 var patchPicked = twisterPatches[Math.floor(Math.random() * twisterPatches.length)];
 
 var twisterPatches = ['C3_016 pink', 'C3_016 orange', 'C3_016 blue',
