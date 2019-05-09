@@ -9,6 +9,8 @@ var twisterPatches = ['C3_016 pink', 'C3_016 orange', 'C3_016 blue',
 //var patchPicked = twisterPatches[Math.floor(Math.random() * twisterPatches.length)];
 //console.log(patchPicked())
 
+// Code pulled from https://www.kirupa.com/html5/picking_random_item_from_array.htm
+
 
 function spin(twisterPatches) {
   return Math.floor(Math.random() * twisterPatches.length);
